@@ -1,16 +1,9 @@
-const alunosNotas = [
-    {nome: "Gustavo", nota: 5 }, 
-    {nome: "Pedro", nota: 3}, 
-    {nome: "Rennan", nota: 7}, 
-    {nome: "Leyla", nota: 8}
-]
-
-function retornaNotas(){
-    alunosNotas.filter((aluno) => {
-        if(aluno.nota >= 6){
-            console.log(aluno)
-        }
-    })
+"use strict";
+function multiplica(valor1, valor2) {
+    return (valor1 * valor2);
 }
-
-retornaNotas();
+function dizOla(nome) {
+    return `Olá ${nome}`;
+}
+console.log(multiplica(2, 5));
+console.log(dizOla('Rennan'));
